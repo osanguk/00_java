@@ -1,0 +1,25 @@
+package com.kh.MapEx;
+
+import java.util.TreeMap;
+
+public class TreeMapEx {
+	public static void main(String[] args) {
+		TreeMap<Integer,String> tm = new TreeMap<>();
+		tm.put(1, "One");
+		tm.put(2, "Two");
+		tm.put(3,"Three");
+		
+		Integer[]keys = {1,2,3};
+		String[] values = {"One","Two","Three"};
+		
+		for(int i = 0; i < keys.length; i++) {
+			tm.put(keys[i],values[i] );
+			
+			System.out.println(tm);
+			
+		}
+	}
+}
+	
+
+	

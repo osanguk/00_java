@@ -1,0 +1,15 @@
+package com.kh.practice.Score.model.dao;
+
+import java.util.*;
+
+public class FileDAO {
+	private final String FILE_PATH = "score.txt";
+	
+	
+	public void saveScore(String name,int kor,int eng, int math, int sum, double avg) {
+		
+		try(DataOutputStream dos = new DataOutputStream9new FileOutput)
+		
+	}
+
+}

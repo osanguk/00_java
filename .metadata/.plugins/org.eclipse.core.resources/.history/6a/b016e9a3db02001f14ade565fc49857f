@@ -1,0 +1,5 @@
+package com.kh.practice.Score.model.dao;
+
+public class ScoreDAO {
+
+}

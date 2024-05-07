@@ -1,0 +1,8 @@
+package com.kh.TreadPre;
+						//extends Thread
+public class 스레드연습 {
+	
+	int 초;
+	
+
+}

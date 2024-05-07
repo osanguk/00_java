@@ -1,0 +1,8 @@
+
+public class ImagePr2 {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.practice.file.controller;
+
+import com.kh.practice.Score.model.dao.ScoreDAO;
+
+public class FileController {
+	ScoreDAO sd = new ScoreDAO();
+	
+	
+
+}

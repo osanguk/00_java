@@ -1,0 +1,11 @@
+package sup1.controller;
+
+public class Score {
+	private int 국어;
+	private int 영어;
+	private int 수학;
+	private double 평균;
+	
+	
+	
+}

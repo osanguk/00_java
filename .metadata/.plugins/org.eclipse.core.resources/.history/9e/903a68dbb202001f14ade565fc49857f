@@ -1,0 +1,38 @@
+package com.kh.FileEx;
+
+import java.io.File;
+import java.io.IOException;
+
+public class FilePre {
+	
+	public void 메서드1() {
+		File 텍스트파일 = new File("c:/Users/user1/Dexktop/newFFF/파일생성.txt");
+		
+		if(텍스트파일.exists()) {
+			System.out.println("파일이 존재합니다.");
+		}else {//존재하지 않는다면
+			//만일 파일 만들기 성공!
+			try {
+				텍스트파일.createNewFile();
+				System.out.println(텍스트파일.getName() + "여러분이 그토록 원하시던 파일이 만들어졌습니다. 여러부우운!");
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				System.out.println("멍멍이 소리 집어쳐! 무슨 파일이 만들어졌다는 거야!");
+				e.printStackTrace();
+				
+			}
+		}
+	}
+	public void 메서드2() {
+		FilePre 파일 = new FilePre();
+		파일.메서드2();
+	}
+	
+	
+	public static void main(String[] args) {
+		FilePre 파일 = new FilePre();
+		파일.메서드1();
+		
+	}
+
+}

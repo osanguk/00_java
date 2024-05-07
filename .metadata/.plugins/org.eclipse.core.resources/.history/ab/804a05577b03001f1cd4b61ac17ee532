@@ -1,0 +1,19 @@
+package com.kh.variable.ex;
+
+public class EnumEx {
+	public enum 날짜들{
+		월요일,
+		화요일,
+		수요일,
+		목요일,
+		금요일,
+		토요일,
+		일요일
+	}
+	public static void main(String[] args) {
+		
+		System.out.println("월요일 : " + 날짜들.월요일);
+		System.out.println("화요일 : " + 날짜들.화요일);
+		System.out.println("수요일 : " + 날짜들.수요일);
+	} 
+}

@@ -1,0 +1,9 @@
+package com.kh.TreadEx;
+
+public class Main {
+	public static void main(String[] args) {
+		TreadEx 스레드 = new TreadEx();
+		스레드.start();
+	}
+
+}
